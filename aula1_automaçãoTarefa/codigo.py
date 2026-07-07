@@ -8,7 +8,7 @@ import time
 #passo3 abrir base de dados
 #passo4 cadastrar um produto
 #passo5 repetir o passo 4 até acabar a lista de produtos
-pyautogui.pause = 0.5
+pyautogui.PAUSE = 0.5
 pyautogui.press("win")
 pyautogui.write("chrome")
 pyautogui.press("enter")
